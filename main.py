@@ -6,6 +6,12 @@ window.minsize(height=200, width=400)
 window.config(bg="Gray", height=200, width=400)
 
 
+# Create a button function.
+def button_function(value):
+    convert_file = value * 1.60934
+    return convert_file
+
+
 # Create Entry.
 mile_entry01 = Entry()
 mile_entry01.config(width=20)
