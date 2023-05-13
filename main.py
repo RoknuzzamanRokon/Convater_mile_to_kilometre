@@ -30,4 +30,10 @@ my_label_02.config(text="KM ", bg="Gray", font=("Arial", 10, "bold"))
 my_label_02.pack()
 
 
+# Create a Button.
+my_button = Button()
+my_button.config(text="Calculate")
+my_button.pack()
+
+
 window.mainloop()
